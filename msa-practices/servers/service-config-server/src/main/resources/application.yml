@@ -10,11 +10,11 @@ server:
    port: 7777
 
 
-encrypt:
-   key-store:
-      alias: selfsigned
-      location: classpath:keystore.jks
-      password: password
+#encrypt:
+#   key-store:
+#      alias: selfsigned
+#      location: classpath:keystore.jks
+#      password: password
     
     
 ---
@@ -26,7 +26,7 @@ spring:
    cloud:
       config:
          server:
-            encrypt.enabled: true
+            encrypt.enabled: false
             git:
                uri: https://github.com/sjgmajor/msa-practices-config-repo
                searchPaths: service-emaillist,
