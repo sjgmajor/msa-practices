@@ -76,8 +76,8 @@ logging:
       name: logs/${spring.application.name}.log
    level:
       root: WARN
-      me:
-         kickscar:
+      com:
+         poscodx:
             msa:
                service:
                   storage:

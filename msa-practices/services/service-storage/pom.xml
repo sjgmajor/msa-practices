@@ -9,7 +9,7 @@
         <version>2.7.17</version>
         <relativePath/>
     </parent>
-    <groupId>me.kickscar.msa</groupId>
+    <groupId>com.poscodx.msa</groupId>
     <artifactId>service-storage</artifactId>
     <version>1.0-SNAPSHOT</version>
 
